@@ -37,7 +37,7 @@ const getMaxElement = function (times) {
 };
 
 const getColorBar = function (players) {
-  let colorBar = `rgba(2, 14, 134, ` + Math.random(35) + `)`;
+  let colorBar = `hsl(240, ` + ((Math.random() * 100) + 1) + `%, 60%)`;
   if (players === `Вы`) {
     colorBar = `rgba(255, 0, 0, 1)`;
   }
